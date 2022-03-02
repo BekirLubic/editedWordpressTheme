@@ -1,0 +1,208 @@
+/*!
+Theme Name:   Bonbeno 
+URI:    https://bonbeno.com/ 
+
+Author: Bekir Lubic 
+
+Description:  Bonbeno is the perfect theme for your next WooCommerce projec based on bonbeno theme. It features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. Looking for a WooCommerce theme? Look no further!
+Version: 0.0.1 
+
+Text Domain:  bonbenoTags: e-commerce, two-columns, left-sidebar, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+*/
+
+.product_title{
+	font-family: sans-serif;
+}
+
+.linija-naslova-single-product{
+	border-width: 1px;
+	border-color: #f66d48;
+	border-style: solid;
+	margin-top: 0px;
+}
+
+.woocommerce-tabs{
+	border:1px solid black;
+}
+
+.centry-title{
+	margin:0px !important;
+}
+
+.summary h2{
+	margin:0px;
+}
+
+.price .woocommerce-Price-amount{
+	color: #ff3f00ff;
+	margin-top: 0px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.beforePrice{
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+/* gornji slider na simple.php */
+.bonbeno-sticky-add-to-cart__content img{
+height: 50px;
+width: auto;
+}
+main section ul {
+	padding-left: 0px!important;
+	padding-top: 15px;
+}
+
+.columns-5 {
+	width: 100%;
+}
+
+.columns-5 li{
+	width: 25%;
+	margin: 0px;
+	border:1px solid #aeadae;
+	padding:5px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.columns-5 li img{
+	width: 100%;
+	height: auto;
+}
+.screen-reader-text h3{
+	margin-top: 0px;
+}
+
+.images {
+	width: 416px !important;
+}
+
+.woocommerce-Tabs-panel--description, .woocommerce-Tabs-panel{
+	float: left !important;
+}
+.woocommerce-Tabs-panel--description h2{
+	margin-left: 40px;
+	margin-bottom: 50px !important;
+	font-size: 18px !important;
+	font-weight: 700;
+	color: #868686;
+	font-family: sans-serif;
+}
+.woocommerce-Tabs-panel--description p{
+	margin-left: 80px;
+	color: #868686;
+}
+
+
+/** review   **/
+.review-star {
+	position: relative !important;
+	float:left;
+	margin: 8px 15px 0px 0px !important;
+}
+
+.rating{
+	padding: 5px;
+}
+
+#review{
+	border:0px !important;
+}
+
+.review-result-wrapper i{
+	font-size: 20px;
+}
+
+
+
+/** product - category **/
+
+.woocommerce-products-header h1{
+	margin-top: 0px;
+}
+
+div .bonbeno-sorting {
+	margin-bottom: 0px !important;
+}
+
+/** sortiranje linkovi **/
+
+.sortiranjeDiv{
+	float: left; 
+	margin-right: 10px;
+}
+
+.sortiranjeA{
+	font-size: 15px; 
+	color: black; 
+	font-family: sans-serif;
+}
+
+.sortiranjeP{
+	float: left; 
+	margin: 8px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+
+.sortiranjeSpan{
+	font-size: 18px; 
+	margin-top: 10px; 
+	margin-left: 5px; 
+	float: left; 
+	top: 0px;
+}
+
+a.sortiranjeA:hover, p.sortiranjeP:hover, span.sortiranjeSpan:hover{
+	color: #5050f8ff;
+}
+
+ul.page-numbers{
+	width: 100%;
+	padding: 0px !important;
+	margin: 10px 0px 0px 0px !important;
+}
+.page-numbers li{
+	float: left;
+	padding: 10px 15px;
+	margin-right: 10px;
+	border:1px solid #e1e1e1;
+}
+
+a.page-numbers{
+	color:blue !important;
+}
+
+.woocommerce-pagination {
+	width: 100%;
+	margin: 0 auto;
+	float: none;
+}
+
+.woocommerce-pagination ul {
+	text-align: center;
+	margin:0 auto;
+	float: none;
+}
+
+.site-main ul.products.columns-5 li.product{
+	width: 19% !important;
+	margin-right: 5px !important;
+	height: 450px;
+}
+
+/** KARTICE SA PROIZVODIMA U PRODUCTS.PHP **/
+
+.woocommerce-product-details__short-description p{
+	text-align: left;
+	font-size: 15px;
+	color: #6d6e70;
+}
